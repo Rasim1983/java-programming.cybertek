@@ -27,9 +27,11 @@ public class SetExamples {
         words.add("java");
         words.add("java");
         words.add("collection");
+        words.remove("world");
         System.out.println(words);
 
-        for(String String : words){
+
+        for(String word : words){
 
         }
 
