@@ -30,7 +30,7 @@ public class MapExamples2 {
         Map<Integer, Person> map3 = new TreeMap<>();
         map3.put(32, new Person("MJ", 32));
         map3.put(0, new Person("", 0));
-        map3.put(12 , new Person("Nick", 10));
+        map3.put(-12 , new Person("Nick", 10));
         System.out.println(map3);
 
     }
